@@ -1,1 +1,1 @@
-web：gunicorn gettingstarted.wsgi --log-file  -
+web: gunicorn mysite.wsgi:application -b 0.0.0.0:$PORT
