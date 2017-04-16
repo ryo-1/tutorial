@@ -1,0 +1,17 @@
+*.DS_Store
+*.pyc
+*.swp
+temp/*
+dist/*
+build/*
+docs/site/*
+docs/theme/*
+tags
+env/*
+
+# test-related
+.coverage
+.cache
+
+# developer environments
+.idea
