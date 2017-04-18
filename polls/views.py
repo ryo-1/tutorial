@@ -13,5 +13,5 @@ def manval(request):
     except (KeyError):
         return render(request, 'polls/index.html',{'ans':'失敗'})
     else:
-        return render(request, 'polls/index.html',{'ans':'成功'+text}, 
+        return render(request, 'polls/index.html',{'ans':text}, 
                       context_instance=RequestContext(request))
