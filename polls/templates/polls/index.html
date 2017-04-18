@@ -10,6 +10,7 @@
   <body id="generic" class="">
     <p>比較するよ</p>
     <form action="/manval" method="post">
+        {% csrf_token %}
         <input type="text" name="manval" id="manval"
          value="" />
         <input type="submit" value="送信" />
