@@ -25,7 +25,7 @@ def manval(request):
         X  = X.astype("float")  / 256
     
         model = apple.build_model(X.shape[1:])
-        model.load_weights("./image/apple-model.h5")
+        model.load_weights("./apple-model.h5")
     
         pre = model.predict(X)
         print(pre)
